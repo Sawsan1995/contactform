@@ -1,0 +1,36 @@
+.imgwrap {
+    width: 100%;
+    position: relative;
+}
+
+.imgwrap img{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 51px !important;
+}
+
+.swiper-pagination-bullet {
+    border-radius: 0% !important;
+    background: #ffffff !important;
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 35.2) !important;
+}   
+
+.swiper-pagination-bullet-active {
+    background: rgb(40, 230, 40) !important;
+} 
+
+.overlaydiv {
+    background: rgba(0,0,0,.5);
+    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 19%;
+    right: 30px;
+    text-align: right;
+    color: #fff;
+    padding: 20px;
+
+}

@@ -1,0 +1,81 @@
+.postwrapper {
+    display: flex;
+    flex-direction: column;
+    width: 711px;
+    border-bottom: 4px solid green;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    margin-left: 48px;
+    background: white;
+}
+
+.postwrapper h2{
+    padding-left: 2%;
+    font: 32px ubuntu, sans-serif;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.postwrapper h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.postwrapper h2 a:hover{
+    color: #439f55;
+}
+
+.postwrapper p{
+    padding-left: 2%;
+    margin-top: -15px;
+}
+
+
+.postfooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #f8f8f8;
+    padding-left: 2%;
+}
+
+.postfooter h6{
+    font: 12px helvetica, sans-serif;
+    font-weight: 400;
+    color: #999999;
+    padding-right: 13px;
+}
+
+
+
+.postfooter h6:hover{
+    color: #439f55;
+}
+
+.postfooter .icon{
+    font-size: 12px;
+}
+
+.postfooter h5{
+    font: 14px helvetic, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #1d1d1d;
+    padding-right: 68px;
+    padding-top: 3px;
+}
+
+
+.ReamMore.btn{
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 12px;
+    border: 1px solid #439f55;
+    background-color: #57ad68;
+    color: #fff;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    margin-left: 593px;
+
+
+}

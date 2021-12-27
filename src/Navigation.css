@@ -1,0 +1,118 @@
+.WebsiteLogo{
+    display: flex;
+    justify-content: space-between;
+    background: #f8f8f8;
+}
+
+.WebsiteLogo .Logo{
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.WebsiteLogo .Logo h5{
+    font-weight: 200;
+    font: 14px helvetica, sans-serif;
+    color: #999999;
+
+}
+
+.Socialicons{
+    padding: 39px;
+    color: #d0d0d0;
+    font-size: 21px;
+}
+
+.Socialicons .fa{
+    margin-right: 16px;
+}
+
+.Socialicons .faFacebook:hover{
+    background: #3b5998;
+}
+
+.Socialicons .fa.Facebook:hover{
+    background: #3b5998;
+}
+.Socialicons .fa.Twitter:hover{
+    background: #00aced;
+}
+.Socialicons .fa.Linkedin:hover{
+    background: #007bb6;
+}
+.Socialicons .fa.Github:hover{
+    background: #0f1013;
+}
+
+.WebsiteLogo .Logo h1{
+    color: #57ad68;
+    letter-spacing: -2px;
+    font: 36px ubuntu,sans-serif;
+    line-height: 42px;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.links{
+    background: #57ad68;
+
+}
+
+.links ul{
+    margin:0;
+}
+.links ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 12px 14px;
+
+}
+
+li.firstchild {
+    border: 1px solid #439f55;
+    background: #439f55;
+    box-shadow: 0 0px 1px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    font: 14px Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+
+.first-child{
+    background: #439f55;
+}
+
+.links ul li:hover {
+    background:#439f55;
+    
+}
+
+
+ul.submenuBlog {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    background: white;
+    left: 250px;
+    padding-left: 0;
+    border-bottom: 4px solid #439f55;
+    display: none;
+}
+
+.menu-item:hover > .submenuBlog{
+    display: block;
+}
+
+ul.submenuBlog li a {
+    color: gray;
+    padding-right: 30px;
+}
+.submenuBlog li:hover a{
+    color: red;
+   
+}

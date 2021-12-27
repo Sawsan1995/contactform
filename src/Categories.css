@@ -1,0 +1,39 @@
+.categoriesewapper{
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    border-radius: 2px;
+    width: 300px;
+    margin-right: 48px;
+    margin-top: -440px;
+
+}
+
+.categoriesewapper h3{
+    font: 18px ubuntu, sans-serif;
+    color: #1b1e1f;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.categoriesewapper ul{
+    padding-left: 8px;
+}
+
+
+.categoriesewapper ul li{
+    list-style: none;
+}
+
+.categoriesewapper ul li a{
+    color: #439f55;
+    font: 13px helveica, sans-serif;
+    margin: 0 0 8px;
+    text-decoration: none;
+    padding-left: 11px;
+
+}
+
+.archivewapper ul li a:hover{
+    text-decoration: underline;
+}

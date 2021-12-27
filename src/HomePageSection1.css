@@ -1,0 +1,31 @@
+
+.section1{
+    display: flex;
+    padding-top: 5%;
+  }
+  
+  .section1txt{
+    width: 48%;
+    padding-left: 60px;
+  }
+  
+  .section1txt p{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  
+  .section1img{
+    width: 50%;
+  }
+  
+  .section1img img{
+    width: 100%;
+  }
+  
+  .section1btn {
+    background: #4e9b87;
+    color: white;
+    padding: 11px 31px;
+    border-radius: 7px;
+    width: 13%;
+  }  
